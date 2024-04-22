@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>UPS LITE</title>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+		<script
+			src="graphWweight.js"
+			type="module"
+		></script>
+		<script
+			src="drawpath.js"
+			type="module"
+		></script>
+		<!-- <script
+			src="dots.js"
+			type="module"
+		></script> -->
+	</head>
+	<body>
+		<div id="container">
+			<img
+				id="map"
+				src="./map.jpg"
+				alt="City Map"
+				usemap="#citymap"
+			/>
+			<map name="citymap">
+				<area
+					class="area"
+					shape="rect"
+					coords="185.10000610351562, 205, 285.1000061035156, 273"
+					alt="school"
+					onClick="handleClick(17)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="525.1000061035156, 260, 626.1000061035156, 329"
+					alt="hospital"
+					onClick="handleClick(20)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="521.1000061035156, 50, 653.1000061035156, 142"
+					alt="factory"
+					onClick="handleClick(6)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="47.100006103515625, 51, 181.10000610351562, 129"
+					alt="forest"
+					onClick="handleClick(5)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="47.100006103515625, 415, 301.1000061035156, 639"
+					alt="beach"
+					onClick="handleClick(23)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="349.1000061035156, 581, 415.1000061035156, 641"
+					alt="museum"
+					onClick="handleClick(38)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="448.1000061035156, 571, 536.1000061035156, 643"
+					alt="tire center"
+					onClick="handleClick(39)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="563.1000061035156, 579, 653.1000061035156, 643"
+					alt="Gas Station"
+					onClick="handleClick(40)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="45.100006103515625, 287, 145.10000610351562, 393"
+					alt="temple"
+					onClick="handleClick(23)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="165.10000610351562, 310, 293.1000061035156, 388"
+					alt="market"
+					onClick="handleClick(24)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="205.10000610351562, 51, 496.1000061035156, 143"
+					alt="farm"
+					onClick="handleClick(6)"
+				/>
+				<area
+					class="area"
+					shape="rect"
+					coords="521.1000061035156, 357, 653.1000061035156, 436"
+					alt="hotel"
+					onClick="handleClick(29)"
+				/>
+				<area
+					class="area"
+					shape="poly"
+					coords="347.1000061035156, 168, 343.1000061035156, 222, 517.1000061035156, 229, 574.1000061035156, 244, 653.1000061035156, 247, 652.1000061035156, 167, 507.1000061035156, 166, 419.1000061035156, 166"
+					alt="garden + rest house"
+					onClick="handleClick(14)"
+				/>
+				<area
+					class="area"
+					shape="poly"
+					coords="344.1000061035156, 252, 494.1000061035156, 251, 494.1000061035156, 391, 319.1000061035156, 392, 318.1000061035156, 298, 341.1000061035156, 293"
+					alt="colony"
+					onClick="handleClick(26)"
+				/>
+				<area
+					class="area"
+					shape="poly"
+					coords="325.1000061035156, 416, 496.1000061035156, 417, 500.1000061035156, 459, 651.1000061035156, 462, 650.1000061035156, 516, 558.1000061035156, 518, 554.1000061035156, 540, 325.1000061035156, 541"
+					alt="circus"
+					onClick="handleClick(34)"
+				/>
+			</map>
+			<div class="output-box">
+				<h3 id="output-Heading">Total Distance :</h3>
+				<textarea
+					type="text"
+					id="output"
+				></textarea>
+			</div>
+		</div>
+	</body>
+</html>
