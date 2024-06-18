@@ -1,11 +1,11 @@
 # PathSeeker
 
+## Overview
+PathSeeker is a web-based application designed to help users find the shortest path between nodes using Dijkstra's algorithm. The application features an interactive user interface where users can click to choose the source and destination nodes from a map, visualize the algorithm's step-by-step execution.
+
 ## Demo 
 
 https://github.com/anandpanda/PathSeeker/assets/148877270/de6265ed-3d8e-4f08-b5d6-0a7c79ce10e5
-
-## Overview
-PathSeeker is a web-based application designed to help users find the shortest path between nodes using Dijkstra's algorithm. The application features an interactive user interface where users can click to choose the source and destination nodes from a map, visualize the algorithm's step-by-step execution.
 
 ## Features
 - **Interactive Map:** Users can click to select the source and destination nodes from a map interface.
